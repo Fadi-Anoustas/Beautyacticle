@@ -10,6 +10,8 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
 
         System.err.println("TEST");
+
+        NASISAKDASBNDSAOghdljsabhdo
         super(Application.class);
     }
 }
