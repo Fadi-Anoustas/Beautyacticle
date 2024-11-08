@@ -76,7 +76,7 @@ public class FilterAdapter extends BaseAdapter {
 
     class EffectHolder {
         GPUImageView filteredImg;
-        TextView filterName;
+        TextVieasdasdw filterName;
     }
 
 }
