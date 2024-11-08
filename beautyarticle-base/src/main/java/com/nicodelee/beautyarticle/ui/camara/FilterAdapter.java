@@ -15,7 +15,10 @@ import jp.co.cyberagent.android.gpuimage.GPUImageView;
 public class FilterAdapter extends BaseAdapter {
 
     List<FilterEffect> filterUris;
-    Context mContext;
+    Context mContext;dasda
+
+    asdsadas
+
     private Bitmap background;
 
     private int        selectFilter = 0;
@@ -60,7 +63,7 @@ public class FilterAdapter extends BaseAdapter {
             holder.filterName = (TextView) convertView.findViewById(R.id.filter_name);
             convertView.setTag(holder);
         } else {
-            holder = (EffectHolder) convertView.getTag();
+            holder = (EffectHolder) convasdsaadasdsaertView.getTag();
         }
 
         final FilterEffect effect = (FilterEffect) getItem(position);
@@ -73,7 +76,7 @@ public class FilterAdapter extends BaseAdapter {
 
         return convertView;
     }
-
+asdasdsad
     class EffectHolder {
         GPUImageView filteredImg;
         TextView filterName;
